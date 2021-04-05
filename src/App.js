@@ -32,7 +32,7 @@ function App() {
 
       <div className="contents">
         <Route exact path = "/" component = {Home}/>
-        <Route path ="/productList" render = {(fakeData)=>( <ProductList products={["Bulbasaur", "Charmander", "Squirtle"]}/>)}/>
+        <Route path ="/productList" render = {(products)=>( <ProductList products={["Bulbasaur", "Charmander", "Squirtle"]}/>)}/>
         <Route path ="/product" component = {Product}/>
         <Route path ="/cart" component = {Cart}/> 
         <Route path ="/checkout" component = {Checkout}/> 

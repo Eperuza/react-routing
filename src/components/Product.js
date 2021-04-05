@@ -1,8 +1,6 @@
-function Product ({product}){
+function Product(){
     return(
-        <div class="productEntry">
-            <p>{product}</p>
-        </div>
+        <p>This is a particular product page!</p>
     );
 }
 
